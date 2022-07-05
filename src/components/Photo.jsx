@@ -1,5 +1,5 @@
 export default function Photo() {
     return (
-        <img alt="" src=""/>
+        <img className="card--profile-photo" alt="" src=""/>
     )
 }
