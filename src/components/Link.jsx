@@ -1,7 +1,7 @@
 export default function Link(){
     return (
-        <div className="link">
-            <a href="#">Odkaz</a>
+        <div className="card--link">
+            <a href="#">pbateman.com</a>
         </div>
     )
 
