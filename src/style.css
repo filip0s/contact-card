@@ -2,7 +2,13 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: #23252C;
+    font-family: Inter, sans-serif;
 
+}
+main {
+    display:flex;
+    align-items: center;
+    height: 100vh;
 }
 
 /* Card styling */
@@ -10,5 +16,45 @@ body {
 .card {
     background-color: #1A1B21;
     margin: auto;
-    max-width: 320px;
+    min-width: 320px;
+    border-radius: 10px;
+
+}
+
+.card--profile-photo {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card--name {
+    margin-top: 21px;
+}
+/* Card typography */
+.card--name > h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.card--job-position > span {
+    color: #F3BF99;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    display:block;
+}
+
+.card--link > a {
+    color: #F5F5F5;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    display:block;
+}
+
+.card--link > a:visited {
+    color: #F5F5F5;
 }
