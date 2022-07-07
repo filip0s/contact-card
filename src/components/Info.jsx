@@ -10,7 +10,6 @@ export default function Info(){
             <Name />
             <JobPosition />
             <Link />
-            <h1>Info component</h1>
         </div>
 
     )

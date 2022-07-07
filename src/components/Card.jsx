@@ -6,7 +6,6 @@ import Footer from "./Footer";
 export default function Card() {
     return (
         <div className="card">
-            <h1>Card component</h1>
             <Info/>
             <About />
             <Interests />
