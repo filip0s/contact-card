@@ -1,7 +1,7 @@
-export default function JobPosition(){
+export default function JobPosition() {
     return (
-        <div className="jobPosition">
-            Pracovni pozice
+        <div className="card--job-position">
+            <span>Vice President</span>
         </div>
     )
 }
