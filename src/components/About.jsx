@@ -1,8 +1,8 @@
 export default function About(){
     return (
-        <div className="about">
+        <div className="card--about">
             <h2>About</h2>
-            <p>O mne</p>
+            <p>about me...</p>
         </div>
     )
 }

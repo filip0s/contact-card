@@ -1,8 +1,8 @@
 export default function Interests(){
     return (
-        <div className="interests">
+        <div className="card--interests">
             <h2>Interests</h2>
-            <p>moje zajmy</p>
+            <p>my interests...</p>
         </div>
     )
 }
