@@ -29,7 +29,7 @@ main {
 .card--name {
     margin-top: 21px;
 }
-/* Card typography */
+/* `Name` component */
 .card--name > h1 {
     color: #FFFFFF;
     text-align: center;
@@ -39,6 +39,7 @@ main {
     margin: 0;
 }
 
+/* `JobPosition` component */
 .card--job-position > span {
     color: #F3BF99;
     text-align: center;
@@ -47,6 +48,7 @@ main {
     display:block;
 }
 
+/* `Link` component */
 .card--link > a {
     color: #F5F5F5;
     font-size: 10px;
@@ -57,4 +59,27 @@ main {
 
 .card--link > a:visited {
     color: #F5F5F5;
+}
+
+
+/* `About` and `Interests` component*/
+section {
+    padding: 20px 30px;
+}
+
+section > h2, section > p {
+    margin: 0;
+}
+
+section > h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+section > p {
+    font-size: 11px;
+    line-height: 150%;
+    color: #DCDCDC;
 }
