@@ -1,7 +1,8 @@
 export default function Button(){
     return (
-        <div className="btn">
-            Tlacitko
-        </div>
+        <button>
+            <i className="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </button>
     )
 }
